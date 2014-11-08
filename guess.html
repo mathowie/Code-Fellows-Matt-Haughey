@@ -1,0 +1,20 @@
+<script type="text/javascript">
+var guess, answer, message;
+
+//Ask for Input
+guess = prompt("pick a number");
+answer = Math.floor(Math.random() * 10);
+
+
+//Check guess
+ 
+if (guess == answer) {
+	message = "You are correct sir!"
+}
+else {
+	message = "Sorry, it was actually " + answer;
+}
+
+alert(message);
+
+</script>

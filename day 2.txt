@@ -1,0 +1,14 @@
+day 2
+
+write clean code
+= vs == vs === strings vs integers
+
+functions encapsulate variables within the function (scope) to make code maintenance easier down the line.
+
+JSLint
+
+upload assignments to gist, submit public URLs
+
+normalize.css
+
+codeschool.com/courses/discover-devtools

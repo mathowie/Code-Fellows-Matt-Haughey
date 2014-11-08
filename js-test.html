@@ -1,0 +1,17 @@
+<script type="text/javascript">
+
+	var birth;
+
+	birth = prompt('When were you born? (yyyy-mm-dd)');
+
+	birth = new Date(birth);
+
+	var now = Date.now();
+
+	var age = (now - birth)/(1000*60*60*24*365);
+
+
+
+alert("You're " + age + " years young!");
+
+</script>

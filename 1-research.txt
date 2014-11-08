@@ -1,0 +1,17 @@
+Difference engine:
+
+- A difference engine is an automatic mechanical calculator designed to tabulate polynomial functions
+
+not built, moved on to Analytical engine
+
+
+Analytical engine:
+
+- Charles Babbage's analytical engine (1830s) would have been the first Turing-complete machine if it had been built at the time it was designed. 
+
+- wasn't built due to the British gov't pulling funding and issues with the lead engineer.
+
+- Turning complete has conditional branching and the ability to store and change variables in memory
+
+
+a small portion was built just before Babbage's death, his son completed the Mill and the Printer for demos in 1910.

@@ -1,0 +1,18 @@
+var userNum, computerNum, message;
+userNum = Number(prompt("Pick a number between 1 and 10!"));
+computerNum = (Math.floor(Math.random() * 10)) + 1;
+
+//sanitize input then Check guess
+if (userNum >= 11) {
+    message = "Too high of a number, please refresh and pick again!";
+} else if (isNaN(userNum)) {
+    message = "This is not a number, please refresh and pick again!";
+} else if (userNum === computerNum) {
+    message = "You are correct sir!";
+} else if (userNum + 1 === computerNum || userNum - 1 === computerNum) {
+    message = "So close! It was " + computerNum;
+} else {
+    message = "Sorry, it was " + computerNum;
+}
+  
+document.write(message);
