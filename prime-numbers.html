@@ -1,0 +1,39 @@
+<script type="text/javascript">
+//divided only by one or itself
+// whole number greater than 1
+
+var prime = 2;
+var answer;
+var next;
+
+function isPrime(number) {
+  var count;
+}
+
+console.log('The prime numbers are');
+
+// use modulus to check for zero result
+// function should loop from 2 to userNum
+// square root of userNum 
+
+do {
+  if (prime == 2) {
+    answer = prompt('What is the first prime number?')
+  } else {
+    answer = prompt('What is the next prime number?')
+  }
+
+  if (answer == '') break;
+
+} while (answer != prime);
+
+  if (answer == '') break;
+
+console.log(prime);
+
+// compute next prime
+do {
+  prime++;
+} while (!isPrime(prime));
+
+</script>

@@ -1,0 +1,38 @@
+code academy, codeschool, treehouse js tutorials/intros
+
+projecteuler more challenging approach
+
+function vs. function signature (returns a value)
+
+for loops
+
+while
+  while loop 
+  do while loop
+
+
+  <script>
+  var count = 1;
+  while (count <= 5); {
+  alert(count);
+  count ++;
+  } 
+  </script>
+
+
+  <script>
+  var count = 1;
+  do {
+  alert(count);
+  count ++;
+  } while (count <= 5);
+  </script>
+
+create a game to guess prime numbers in ascending order 
+
+divided only by one or itself
+
+whole number greater than itself
+
+
+
