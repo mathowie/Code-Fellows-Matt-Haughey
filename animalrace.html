@@ -1,0 +1,94 @@
+<html>
+<head>
+	<title>Tortoise vs. Hare</title>
+
+<style type="text/css">
+body {
+	font-family: sans-serif;
+}
+
+#race {
+	width:350px;
+}
+
+
+.progress-bar {
+    background-color: #444;
+    height: 10px;
+    padding: 5px;
+    width: 350px;
+    margin: 5px 0;         
+  }
+
+.progress-bar span {
+    display: inline-block;
+    height: 100%;
+ }
+
+
+.Pink span {
+    background-color:Pink;   
+}
+
+.PaleGreen span {
+      background-color:PaleGreen;
+}
+
+</style>
+
+<script type="text/javascript">
+
+var tortoise, hare, km;
+
+function Animal(name, speed, focus) {
+	this.name = name;
+	this.speed = speed;
+	this.focus = focus;
+	this.position = 0;
+	this.run = function() {
+		if (Math.random() * 10 < this.focus) {
+			this.position = this.position + this.speed;
+		}
+		return this.position;
+	}
+}
+
+// name, speed, focus
+tortoise = new Animal("PaleGreen", 1, 10);
+hare = new Animal("Pink", 4, 2);
+
+km = 20;
+i = 0;
+
+while (hare.position < km && tortoise.position < km) {
+	hare.run();
+	tortoise.run();
+	i++;
+
+	document.write("<p><strong>Step " + i + "</strong>: " + hare.name + ": " + hare.position + ", " + tortoise.name + ": " + tortoise.position + "</p> " + "<div class=\"progress-bar " + hare.name + "\"><span style=\"width:" + (hare.position * 5) +  "%\"></span></div>" + "<div class=\"progress-bar " + tortoise.name + "\"><span style=\"width:" + (tortoise.position * 5) +  "%\"></span></div>");
+
+	 if ((hare.position == km) || (tortoise.position == km)) {
+	 		var message;
+	 		if (hare.position == km) {
+	 			message = hare.name;
+	 		} else {
+	 			message = tortoise.name;
+	 		}
+
+
+	 	document.write("<p style=\"background:" + message+ "\" id=\"race\">race is over and " + message + " wins!</p>")
+	 }
+
+}
+
+</script>
+</head>
+<body>
+
+
+
+</body>
+</html>
+
+
+
