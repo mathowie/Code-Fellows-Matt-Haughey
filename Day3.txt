@@ -36,3 +36,7 @@ whole number greater than itself
 
 
 
+
+constructor fuction 
+
+
