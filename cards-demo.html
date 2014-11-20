@@ -1,0 +1,39 @@
+<script type="text/javascript">
+// Example for loop
+
+function Deck() {
+  this.cards = [];
+  this.count = function() {
+    return this.cards.length;
+  }
+
+  this.init = function () {
+  for (s = 1; s < 5; s++) {
+    for (r = 1; r < 14; r++) {
+      this.cards.push(new Card(r,s));
+      }
+    }
+  }
+}
+
+  this.draw = function() {
+    // random num generator 0-51
+    // request that num from array
+    draw = Math.floor(Math.random() * 51);
+    document.write (draw);
+  }
+
+function Card(rank, suit) {
+  this.rank = rank;
+  this.suit = suit;
+  this.show = function() {
+    console.log(this.rank + " of " + this.suit);
+  }
+}
+
+d = new Deck();
+d.init();
+
+
+
+</script>

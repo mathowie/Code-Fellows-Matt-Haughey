@@ -4,3 +4,30 @@ OOP
 
 - procedural
 - functional (stateless)
+- object oriented 
+    - Abrstraction, Encapsulation, Inheretance, Polymorphism
+
+  Motorcycle UI
+  - hands
+    - shifting, braking, throttle, turn signaling, headlight, steering
+  - feet
+    - shifting, braking
+  - license plate
+    - identification, registration, ownership
+
+  Related to systems
+    - braking, safety
+    - lighting, safety
+    - throttle, speed control
+    - steering
+
+Objects
+- nouns
+- research the problem domain
+
+
+CSS Box Model
+
+add prime number project to github
+add card sort to github
+
