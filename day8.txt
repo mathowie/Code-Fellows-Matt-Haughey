@@ -1,0 +1,8 @@
+day 8
+
+binary trees
+
+true binary trees only have 0 or 2 children, never one
+
+binary search tree: everything descends in value across tree structure
+
